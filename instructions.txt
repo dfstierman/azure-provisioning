@@ -1,0 +1,11 @@
+install azure cli from https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli
+conda create --name azure-sdk-env python=3.10
+C:\Users\Don\Projects\ResourceData\PythonAzureSDK>conda activate azure-sdk-env
+(azure-sdk-env) C:\Users\Don\Projects\ResourceData\PythonAzureSDK>conda install --file requirements.txt
+set AZURE_SUBSCRIPTION_ID=a6b749f1-6ab2-43e8-a4b0-7326d74e9eb1
+
+for powershell:
+one time: conda init powershell then restart
+$env:AZURE_SUBSCRIPTION_ID = 'a6b749f1-6ab2-43e8-a4b0-7326d74e9eb1'
+az login
+
